@@ -34,4 +34,11 @@
     height: 0.75rem;
     width: 0.75rem;
   }
+
+  /* ----- Programs Section -----  */
+
+  .programs {
+    width: 95%;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
