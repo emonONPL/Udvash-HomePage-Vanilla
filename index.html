@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <title>Home - Udvash Academic & Admission Care</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav class="nav-container">
+        <div class="navbar">
+          <div>
+            <a href="https://udvash.com/"
+              ><img
+                src="https://udvash.com/media/Images/UDVASH/Common/Udvash-Logo.png"
+                alt="Logo"
+            /></a>
+          </div>
+          <div class="lg-nav">
+            <ul class="nav-items">
+              <li><a href="#">প্রোগ্রামসমূহ</a></li>
+              <li><a href="#">শাখাসমূহ</a></li>
+              <li>
+                <a href="tel:09666775566"
+                  ><img
+                    src="https://udvash.com/media/Images/UDVASH/Common/callusicon.png"
+                    alt="Call Icon"
+                /></a>
+              </li>
+              <li><button class="nav-btn">Join Now</button></li>
+            </ul>
+          </div>
+          <div class="sm-nav">
+            <button class="nav-btn">Join Now</button>
+            <div id="view_menu"><i class="fa-solid fa-bars fa-2x"></i></div>
+            <div id="hide_menu" class="hide">
+              <i class="fa-solid fa-xmark fa-2x"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Mobile Navbar -->
+      <section id="sm_navbar" class="sm-navbar hide">
+        <div class="sm-nav-items">
+          <ul class="nav-items">
+            <li><a href="#">প্রোগ্রামসমূহ</a></li>
+            <li><a href="#">শাখাসমূহ</a></li>
+          </ul>
+          <div class="call-info">
+            <img
+              src="https://udvash.com/media/Images/UDVASH/Common/callusicon.png"
+              alt="Call Icon"
+            />
+            <h4>09666775566</h4>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="sliders">
+        <div id="slider1" class="slider">
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/EAP23Top3UpdateMob..png
+              "
+            />
+
+            <img
+              src="https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/EAP23Top3UpdateWeb.png"
+              alt="Slider 1"
+            />
+          </picture>
+        </div>
+        <div id="slider2" class="slider">
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/2.png
+              "
+            />
+            <img
+              src="https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/1.png"
+              alt="Slider 2"
+            />
+          </picture>
+        </div>
+        <div id="slider3" class="slider">
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://udvash-unmesh.com//media/Images/Udvash/sliderimage/2024/DU2024Top3Mob1.png
+              "
+            />
+            <img
+              src="https://udvash-unmesh.com//media/Images/Udvash/sliderimage/2024/DU2024Top3Web1.png"
+              alt="Slider 3"
+            />
+          </picture>
+        </div>
+        <div id="slider4" class="slider">
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/Kha02.png
+              "
+            />
+            <img
+              src="https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/Kha01.png"
+              alt="Slider 4"
+            />
+          </picture>
+        </div>
+        <div id="slider5" class="slider">
+          <picture>
+            <source
+              media="(max-width: 768px)"
+              srcset="
+                https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/Kha04.png
+              "
+            />
+            <img
+              src="https://udvash-unmesh.com//media/Images/Udvash/sliderimage/z/Kha03.png"
+              alt="Slider 5"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="radio-buttons">
+        <div class="radio-button active-radio-button"></div>
+        <div class="radio-button"></div>
+        <div class="radio-button"></div>
+        <div class="radio-button"></div>
+        <div class="radio-button"></div>
+      </div>
+    </section>
+
+    <!-- Main Section -->
+
+    <main>
+      <!-- Program Section  -->
+
+      <section class="program-container">
+        <h1>সময়োপযোগী প্রোগ্রামসমূহ</h1>
+        <div class="programs">
+          <div>
+            <select class="dropdown-menu" name="classes" id="classes">
+              <option value="">All Class</option>
+              <option value="six">Six</option>
+              <option value="seven">Seven</option>
+              <option value="eight">Eight</option>
+              <option value="nine">Nine</option>
+              <option value="ten">Ten</option>
+              <option value="model-test">Model Test</option>
+              <option value="admission">Admission</option>
+            </select>
+          </div>
+          <div>
+            <select class="dropdown-menu" name="all-programs" id="all_programs">
+              <option value="">All Program</option>
+              <option value="offline">Offline Program</option>
+              <option value="online">Online Program</option>
+            </select>
+          </div>
+          <div>
+            <select class="dropdown-menu" name="types" id="types">
+              <option value="">All Type</option>
+              <option value="paid">Paid Program</option>
+              <option value="free">Free Program</option>
+            </select>
+          </div>
+
+          <div class="card-container">
+            <div class="card-img">
+              <img
+                src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
+                alt="Parallel"
+              />
+            </div>
+            <div class="card-details">
+              <h3>প্যারালাল Text (ষষ্ঠ-দ্বাদশ)</h3>
+              <ul>
+                <li>দৃঢ় বেসিক গঠনে কনসেপ্ট ভিত্তিক আলোচনা</li>
+                <li>বাস্তব উদাহরণ, গল্প এবং চিত্রালোকে সাজানো</li>
+                <li>
+                  সংজ্ঞা, বৈশিষ্ট্য, পার্থক্য ইত্যাদি নির্দেশকের মাধ্যমে পৃথককরণ
+                </li>
+                <li>বোর্ড ও এডমিশন প্রশ্ন-সমাধান ব্যাখ্যাসহকারে বিশ্লেষণ</li>
+                <li>প্র্যাকটিস ও গাণিতিক সমস্যাবলি সংযোজন</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="card-img">
+              <img
+                src="https://udvash-unmesh.com//media/Images/Udvash/program/2025/zz%20(4).png"
+                alt="Parallel"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
