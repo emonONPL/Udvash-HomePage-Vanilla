@@ -40,3 +40,57 @@ radioButtons.forEach((button, index) => {
     moveToSlide(index);
   });
 });
+
+// ----- Success Section -----
+
+const successSliders = document.querySelector(".success-sliders");
+const totalSuccessSliders = document.querySelectorAll(".success-slider").length;
+const successRadioButtons = document.querySelectorAll(".success-radio-button");
+
+successRadioButtons[0].classList.add("active-success-radio-button");
+
+let currentSuccessSlide = 0;
+
+const moveToNextSlide = (index) => {
+  successSliders.style.transform = `translate(-${index * 80}vw)`;
+  successRadioButtons.forEach((button) => {
+    button.classList.remove("active-success-radio-button");
+  });
+  successRadioButtons[index].classList.add("active-success-radio-button");
+};
+
+const autoSuccessSlide = () => {
+  currentSuccessSlide = ++currentSuccessSlide % totalSuccessSliders;
+  moveToNextSlide(currentSuccessSlide);
+};
+
+setInterval(autoSuccessSlide, 4000);
+
+successRadioButtons.forEach((button, index) => {
+  button.addEventListener("click", function () {
+    currentSuccessSlide = index;
+    moveToNextSlide(index);
+  });
+});
+
+let allCounts = document.querySelectorAll(".count");
+
+allCounts.forEach((counter) => {
+  let target = parseInt(counter.innerText);
+  let current = 0;
+  let duration = 3000;
+  let stepTime = 30;
+  let steps = duration / stepTime;
+  let increment = Math.ceil(target / steps);
+
+  counter.innerText = "0";
+
+  let interval = setInterval(() => {
+    current += increment;
+    if (current >= target) {
+      current = target;
+      clearInterval(interval);
+    }
+    counter.innerText = current;
+  }, stepTime);
+});

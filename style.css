@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Baloo Da 2", sans-serif;
 }
 
 .hide {
@@ -13,12 +16,17 @@
 
 /* -----Navbar----- */
 
-.nav-container {
-  background-color: white;
+header {
   position: sticky;
   top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  background-color: white;
   padding: 0.5rem 0;
   z-index: 10;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
@@ -275,4 +283,110 @@
 
 .card-btn3:hover {
   background: linear-gradient(to left, #38b34a, #043927);
+}
+
+/* ----- Success Section -----  */
+
+.success-container {
+  background-image: url("https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/successbg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 4rem 0;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+}
+
+.success-container > h1 {
+  color: #112780;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.success-sliders-container {
+  width: 80%;
+  height: 50vh;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.success-sliders {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.6s ease-in-out;
+}
+
+.success-slider {
+  width: 80vw;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.success-slider img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.success-radio-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.success-radio-button {
+  height: 1rem;
+  width: 1rem;
+  background-color: #8e9dd8;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.active-success-radio-button {
+  width: 3rem;
+  background-color: #112780;
+  border-radius: 1rem;
+}
+
+.success-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.success-card {
+  padding: 0.75rem;
+}
+
+.success-card > p {
+  font-size: 1.25rem;
+}
+
+#success_count_1 {
+  margin: 0.5rem 0;
+  color: #9b3175;
+  font-size: 2rem;
+}
+
+#success_count_2 {
+  margin: 0.5rem 0;
+  color: #db4528;
+  font-size: 2rem;
+}
+
+#success_count_3 {
+  margin: 0.5rem 0;
+  color: #1e9b39;
+  font-size: 2rem;
+}
+
+#success_count_4 {
+  margin: 0.5rem 0;
+  color: #986206;
+  font-size: 2rem;
 }

@@ -1,6 +1,10 @@
 @media only screen and (max-width: 768px) {
   /* -----Navbar----- */
 
+  .nav-container {
+    box-shadow: none;
+  }
+
   .navbar {
     width: 95%;
   }
@@ -37,8 +41,50 @@
 
   /* ----- Programs Section -----  */
 
+  .program-container {
+    padding: 1rem 0;
+  }
+
+  .program-container h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
   .programs {
     width: 95%;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* ----- Success Section ----- */
+
+  .success-container {
+    padding: 1rem 0;
+  }
+
+  .success-container > h1 {
+    color: #112780;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .success-sliders-container {
+    width: 80%;
+    height: 20vh;
+  }
+
+  .success-radio-button {
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+
+  .active-success-radio-button {
+    width: 2.5rem;
+    background-color: #112780;
+    border-radius: 1rem;
+  }
+
+  .success-cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
