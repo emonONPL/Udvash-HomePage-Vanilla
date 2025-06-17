@@ -87,4 +87,20 @@
   .success-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* ----- Testimonial Section -----  */
+
+  .testimonial-section {
+    padding: 1rem 0;
+  }
+
+  .testimonial-section > h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .testimonial-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+  }
 }
