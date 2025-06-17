@@ -732,3 +732,54 @@ header {
 .hf-link {
   color: #995699;
 }
+
+/* ----- Footer -----  */
+
+footer {
+  background-color: #532356;
+  padding: 5% 10%;
+  color: white;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 2rem;
+}
+
+.footer-container a,
+.footer-container p {
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+  display: block;
+}
+
+.footer-container a:hover {
+  color: #0d6efd;
+}
+
+.footer-container h4 {
+  font-size: 1.5rem;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-social a:hover {
+  color: white;
+}
+
+.footer-hr {
+  border: 1px solid white;
+  opacity: 0.25;
+  margin: 1rem 0;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 0.875rem;
+}
