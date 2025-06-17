@@ -122,4 +122,19 @@
   .video-container {
     max-width: 95%;
   }
+
+  /* ----- Service Section -----  */
+
+  .service-section {
+    padding: 1rem 0;
+  }
+
+  .service-section > h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
