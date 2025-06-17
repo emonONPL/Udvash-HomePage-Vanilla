@@ -101,7 +101,7 @@ header {
 /* ----- Hero Section ----- */
 
 .hero {
-  width: 100vw;
+  width: 100%;
   height: 70vh;
   position: relative;
   overflow: hidden;
@@ -125,6 +125,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: center;
 }
 
 #slider1 {
@@ -639,4 +640,95 @@ header {
 .service-card > p {
   font-size: 1.25rem;
   color: #333333;
+}
+
+/* ----- Easy Written Section -----  */
+
+.easy-written-section {
+  background-image: url(https://udvash.com/Themes/NewUdvashUnmeshTheme/img/udvash/easyBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.easy-title > h2 {
+  color: #6abe45;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.easy-title > h1 {
+  color: #6abe45;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.easy-title > p {
+  color: #2b2b2b;
+  font-size: 1.125rem;
+  text-align: justify;
+}
+
+.easy-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.easy-image > img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* ----- Hasel Free Section -----  */
+
+.hasel-free-section {
+  background-color: #faefff;
+  padding: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hf-details > h2 {
+  color: #f0532d;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hf-details > h1 {
+  color: #995699;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hf-details > p {
+  color: #2b2b2b;
+  font-size: 1.125rem;
+  text-align: justify;
+}
+
+.hf-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hf-image > img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.hf-link {
+  color: #995699;
 }

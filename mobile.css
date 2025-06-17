@@ -137,4 +137,54 @@
   .service-cards {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  /* ----- Easy Written Section -----  */
+
+  .easy-written-section {
+    padding: 2.5%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .easy-image {
+    order: 1;
+  }
+
+  .easy-title {
+    order: 2;
+  }
+
+  .easy-title > h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .easy-title > h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .easy-title > p {
+    font-size: 1rem;
+  }
+
+  /* ----- Hasle Free Section -----  */
+
+  .hasel-free-section {
+    padding: 2.5%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .hf-details > h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .hf-details > h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .hf-details > p {
+    font-size: 1rem;
+  }
 }
