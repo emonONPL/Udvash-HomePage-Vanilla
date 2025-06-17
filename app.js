@@ -94,3 +94,10 @@ allCounts.forEach((counter) => {
     counter.innerText = current;
   }, stepTime);
 });
+
+// ----- Video Section -----
+
+document.getElementById("play_icon").addEventListener("click", function () {
+  document.getElementById("image_container").classList.add("hide");
+  document.getElementById("yt_video").classList.remove("hide");
+});

@@ -103,4 +103,23 @@
     grid-template-columns: repeat(1, 1fr);
     gap: 5rem;
   }
+
+  /* ----- Video Section -----  */
+
+  .video-section {
+    padding: 1rem 0;
+  }
+
+  .video-section > h2 {
+    font-size: 1.25rem;
+  }
+
+  .video-section > h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .video-container {
+    max-width: 95%;
+  }
 }
