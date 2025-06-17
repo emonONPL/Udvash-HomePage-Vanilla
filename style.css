@@ -358,6 +358,8 @@ header {
 }
 
 .success-cards {
+  width: 80vw;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
@@ -649,7 +651,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 10%;
+  padding: 5% 10%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -691,7 +693,7 @@ header {
 
 .hasel-free-section {
   background-color: #faefff;
-  padding: 10%;
+  padding: 5% 10%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
