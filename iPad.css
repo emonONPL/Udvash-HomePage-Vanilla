@@ -1,0 +1,108 @@
+@media only screen and (max-width: 992px) {
+  /* -----Navbar----- */
+
+  .nav-container {
+    box-shadow: none;
+  }
+
+  .navbar {
+    width: 95%;
+  }
+
+  .lg-nav {
+    display: none;
+  }
+
+  .sm-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .nav-btn {
+    padding: 0.5rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .nav-items {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+  }
+
+  /* ----- Programs Section -----  */
+
+  .program-container {
+    padding: 1rem 0;
+  }
+
+  .programs {
+    width: 95%;
+  }
+
+  .progrmas-card {
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ----- Success Section ----- */
+
+  .success-container {
+    padding: 1rem 0;
+  }
+
+  .success-sliders-container {
+    width: 80%;
+    height: 20vh;
+  }
+
+  .success-radio-button {
+    height: 0.75rem;
+    width: 0.75rem;
+  }
+
+  .active-success-radio-button {
+    width: 2.75rem;
+    background-color: #112780;
+    border-radius: 1rem;
+  }
+
+  .success-cards {
+    width: 80vw;
+  }
+
+  /* ----- Testimonial Section -----  */
+
+  .testimonial-section {
+    padding: 1rem 0;
+  }
+
+  .testimonial-cards {
+    width: 95%;
+  }
+
+  /* ----- Video Section -----  */
+
+  .video-section {
+    padding: 1rem 0;
+  }
+
+  /* ----- Service Section -----  */
+
+  .service-section {
+    padding: 1rem 0;
+  }
+
+  .service-cards {
+    width: 95%;
+  }
+
+  /* ----- Footer -----  */
+
+  footer {
+    padding: 5% 2.5%;
+  }
+}

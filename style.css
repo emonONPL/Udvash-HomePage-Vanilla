@@ -189,9 +189,10 @@ header {
   font-weight: bold;
 }
 
-.programs {
+.programs,
+.progrmas-card {
   width: 80%;
-  margin: 0 auto;
+  margin: 1rem auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
