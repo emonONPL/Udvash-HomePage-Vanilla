@@ -422,7 +422,8 @@ header {
 .testimonial-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  row-gap: 5rem;
+  column-gap: 2rem;
   width: 80%;
   margin: 0 auto;
   justify-content: center;
@@ -797,4 +798,8 @@ footer {
 
 .view {
   display: block;
+}
+
+.invisible {
+  visibility: hidden;
 }

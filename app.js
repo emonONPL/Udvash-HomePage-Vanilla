@@ -104,9 +104,22 @@ document.getElementById("play_icon").addEventListener("click", function () {
 
 // ----- Testimonial Section -----
 
+let cardsCount = 3;
+
+const cards = document.querySelectorAll(".testimonial-card");
+
 document
   .querySelector(".testimonial-button")
   .addEventListener("click", function () {
-    document.querySelector(".hidden-cards").classList.remove("hide");
-    document.querySelector(".testimonial-button").classList.add("hide");
+    cardsCount += 3;
+    for (let i = 0; i < cardsCount; i++) {
+      if (!cards[i]) {
+        document
+          .querySelector(".testimonial-button")
+          .classList.add("invisible");
+        document.querySelector(".testimonial-button").style.margin = "0";
+        break;
+      }
+      cards[i].classList.remove("hide");
+    }
   });
