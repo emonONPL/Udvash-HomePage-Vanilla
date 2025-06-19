@@ -241,7 +241,7 @@ header {
 
 .btn-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-bottom: 1rem;
   gap: 1rem;
   margin-top: auto;
@@ -661,7 +661,7 @@ header {
   padding: 5% 10%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
@@ -686,7 +686,7 @@ header {
 
 .easy-image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -703,7 +703,7 @@ header {
   padding: 5% 10%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
@@ -728,7 +728,7 @@ header {
 
 .hf-image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 

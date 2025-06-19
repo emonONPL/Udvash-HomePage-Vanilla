@@ -100,6 +100,18 @@
     width: 95%;
   }
 
+  /* ----- Easy Written Section -----  */
+
+  .easy-written-section {
+    padding: 5% 2.5%;
+  }
+
+  /* ----- Hasel Free Section -----  */
+
+  .hasel-free-section {
+    padding: 5% 2.5%;
+  }
+
   /* ----- Footer -----  */
 
   footer {
