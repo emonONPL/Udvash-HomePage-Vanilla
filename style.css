@@ -642,10 +642,6 @@ header {
   text-align: center;
 }
 
-.service-card {
-  /* padding: 0.5rem; */
-}
-
 .service-card > p {
   font-size: 1.25rem;
   color: #333333;
