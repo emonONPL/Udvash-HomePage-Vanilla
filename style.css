@@ -638,12 +638,12 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
 }
 
 .service-card {
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
 }
 
 .service-card > p {
