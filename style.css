@@ -337,6 +337,10 @@ header {
   object-fit: contain;
 }
 
+.success-img {
+  border-radius: 0.5rem;
+}
+
 .success-radio-buttons {
   display: flex;
   justify-content: center;

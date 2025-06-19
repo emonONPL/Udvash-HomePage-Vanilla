@@ -1,44 +1,4 @@
 @media only screen and (max-width: 575px) {
-  /* -----Navbar----- */
-
-  .nav-container {
-    box-shadow: none;
-  }
-
-  .navbar {
-    width: 95%;
-  }
-
-  .lg-nav {
-    display: none;
-  }
-
-  .sm-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-  }
-
-  .nav-btn {
-    padding: 0.5rem 1.25rem;
-    font-size: 1rem;
-  }
-
-  .nav-items {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid black;
-  }
-
-  /* ----- Hero Section ----- */
-  .radio-button {
-    height: 0.75rem;
-    width: 0.75rem;
-  }
-
   /* ----- Programs Section -----  */
 
   .program-container {
@@ -50,47 +10,9 @@
     font-size: 1.5rem;
   }
 
-  .programs {
+  .progrmas-card {
     width: 95%;
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  /* ----- Success Section ----- */
-
-  .success-container {
-    padding: 1rem 0;
-  }
-
-  .success-container > h1 {
-    color: #112780;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-
-  .success-sliders-container {
-    width: 80%;
-    height: 20vh;
-  }
-
-  .success-radio-button {
-    height: 0.75rem;
-    width: 0.75rem;
-  }
-
-  .active-success-radio-button {
-    width: 2.5rem;
-    background-color: #112780;
-    border-radius: 1rem;
-  }
-
-  .success-cards {
-    width: 95vw;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .success-card > p {
-    font-size: 1rem;
   }
 
   /* ----- Testimonial Section -----  */
@@ -102,45 +24,6 @@
   .testimonial-section > h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
-
-  .testimonial-cards {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 5rem;
-  }
-
-  /* ----- Video Section -----  */
-
-  .video-section {
-    padding: 1rem 0;
-  }
-
-  .video-section > h2 {
-    font-size: 1.25rem;
-  }
-
-  .video-section > h1 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-  }
-
-  .video-container {
-    max-width: 95%;
-  }
-
-  /* ----- Service Section -----  */
-
-  .service-section {
-    padding: 1rem 0;
-  }
-
-  .service-section > h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-
-  .service-cards {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   /* ----- Easy Written Section -----  */
@@ -191,14 +74,5 @@
 
   .hf-details > p {
     font-size: 1rem;
-  }
-  /* ----- Footer -----  */
-
-  footer {
-    padding: 5% 2.5%;
-  }
-
-  .footer-container {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
