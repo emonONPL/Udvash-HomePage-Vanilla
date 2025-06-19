@@ -6,14 +6,6 @@
   font-family: "Baloo Da 2", sans-serif;
 }
 
-.hide {
-  display: none;
-}
-
-.view {
-  display: block;
-}
-
 /* -----Navbar----- */
 
 header {
@@ -217,6 +209,8 @@ header {
   background-color: white;
   border-radius: 1rem;
   border: 1px solid white;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-img img {
@@ -228,12 +222,15 @@ header {
 
 .card-details {
   padding: 1rem;
+  flex-grow: 1;
 }
 
 .card-details h3 {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  line-height: 1.5rem;
+  min-height: 3rem;
 }
 
 .card-details ul {
@@ -247,6 +244,7 @@ header {
   justify-content: center;
   margin-bottom: 1rem;
   gap: 1rem;
+  margin-top: auto;
 }
 
 .card-btn1 {
@@ -538,6 +536,10 @@ header {
   justify-content: center;
 }
 
+.hidden-cards {
+  margin: 5rem auto;
+}
+
 /* ----- Video Section -----  */
 
 .video-section {
@@ -789,4 +791,14 @@ footer {
 .footer-text {
   text-align: center;
   font-size: 0.875rem;
+}
+
+/* ----- Tougle Classes -----  */
+
+.hide {
+  display: none;
+}
+
+.view {
+  display: block;
 }

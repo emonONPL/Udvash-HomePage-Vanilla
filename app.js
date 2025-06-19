@@ -101,3 +101,12 @@ document.getElementById("play_icon").addEventListener("click", function () {
   document.getElementById("image_container").classList.add("hide");
   document.getElementById("yt_video").classList.remove("hide");
 });
+
+// ----- Testimonial Section -----
+
+document
+  .querySelector(".testimonial-button")
+  .addEventListener("click", function () {
+    document.querySelector(".hidden-cards").classList.remove("hide");
+    document.querySelector(".testimonial-button").classList.add("hide");
+  });
